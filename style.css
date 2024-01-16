@@ -3,9 +3,9 @@
 }
 
 body {
-  background: #DCE35B; 
-background: -webkit-linear-gradient(to right, #45B649, #DCE35B); 
-background: linear-gradient(to right, #45B649, #DCE35B); 
+  background: #DCE35B;
+background: -webkit-linear-gradient(to right, #45B649, #DCE35B);
+background: linear-gradient(to right, #45B649, #DCE35B);
   display: grid;
   place-items: center;
   height: 100vh;
@@ -34,7 +34,7 @@ background: linear-gradient(to right, #45B649, #DCE35B);
     flex-direction: row-reverse;
   }
   .card img.birthday {
-    width: 60%;
+    width: 200%;
     max-width: 50vw;
     max-height: unset;
     border-radius: 30px;
@@ -76,4 +76,9 @@ img.birthday {
 .credit {
     margin-top: 10px;
     text-align: center;
+}
+
+.text img {
+  width: 70%;
+  object-fit: contain;
 }

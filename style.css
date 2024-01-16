@@ -34,7 +34,7 @@ background: linear-gradient(to right, #45B649, #DCE35B);
     flex-direction: row-reverse;
   }
   .card img.birthday {
-    width: 200%;
+    width: 175%;
     max-width: 50vw;
     max-height: unset;
     border-radius: 30px;
